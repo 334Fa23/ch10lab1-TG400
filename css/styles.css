@@ -23,6 +23,29 @@ img {
 }
 
 /* Style rules for mobile viewport */
+.mobile-nav a {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu-icon div {
+    height: 50px;
+    width: 50px;
+    background-color: #373684;
+}
+
+
 
 /* Hide tab-desk class */
 .tab-desk {
@@ -243,6 +266,28 @@ footer a {
     }
     
     /* Tablet Viewport: Style rules for nav area */
+    nav {
+    background-color: #373684;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        font-size: 2em;
+        border-top: 1px solid #e5e9fc;
+    }
+
+    nav li a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 0.5em 1em;
+        text-decoration: none;
+    }
     nav li {
         border-top: none;
         display: inline-block;
@@ -326,6 +371,11 @@ footer a {
     aside {
         grid-column: 1 / span 4;
     }
+     .offer:hover {
+     transform: scale(1.25);
+     cursor: pointer;
+   }     
+
     
     /* Style rule for table */
     table {
